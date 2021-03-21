@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { useFetch } from '../../hooks/useFetch';
 import api from '../../services/api';
-import Inputs from '../Inputs';
+import Tasks from '../Task';
+import './index.css';
 
 const TodoList = () => {
   const [idLastTask, setIdLastTask] = useState(0);
@@ -22,8 +23,8 @@ const TodoList = () => {
   }
 
   return (
-    <div>
-      {data.map(toDo => <Inputs />)}
+    <div class="container">
+      {data.map(toDo => <Tasks name={toDo.name} status={toDo.status} id={toDo.id}/>)}
       <button name="adicionar" type="button" onClick={addToDo}>
         teste
       </button>

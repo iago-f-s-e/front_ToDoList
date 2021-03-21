@@ -2,23 +2,23 @@
   "users": [
     {
       "id": 1,
-      "to_do": "iago",
+      "name": "iago",
       "status": false
     },
     {
       "id": 2,
-      "to_do": "iago",
-      "status": false
+      "name": "iago",
+      "status": true
     },
     {
       "id": 3,
-      "to_do": "iago",
+      "name": "iago",
       "status": false
     },
     {
       "id": 4,
-      "to_do": "iago",
-      "status": false
+      "name": "iago",
+      "status": true
     },
     {
       "id": 5,
@@ -27,6 +27,11 @@
     },
     {
       "id": 6,
+      "name": "nome da tarefa",
+      "status": true
+    },
+    {
+      "id": 7,
       "name": "nome da tarefa",
       "status": false
     }
